@@ -13,4 +13,4 @@ If you would like to stay informed about the development of Tairos, follow this 
 
 Thank you for considering following my journey!
 
-Next Post: [Tairos 2: Introducing Print and Play!](/tairos/2020/04/21/introducing-print-and-play.html)
+Next Post: [Tairos 2: Introducing Print and Play!](/tairos/2020/04/22/introducing-print-and-play.html)
