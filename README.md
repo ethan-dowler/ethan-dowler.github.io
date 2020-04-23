@@ -20,5 +20,5 @@ rake start
 
 ## Tools
 
-- [Jekyll Docs]([docs](https://jekyllrb.com/docs/))
+- [Jekyll Docs](https://jekyllrb.com/docs/)
 - [YAML Cheatsheet](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
