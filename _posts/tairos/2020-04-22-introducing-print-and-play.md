@@ -14,3 +14,5 @@ Here are the downloads:
 Previous Post: [Tairos 1: Humble Beginnings](/tairos/2020/04/18/humble-beginnings.html)
 
 Next Post: TBD
+
+*Psst... Are you interested in keeping up with the development process for Tairos? If yes, please consider subscribing to the [Tairos Development Newsletter ->](/tairos/2020/04/22/subscribe-to-tairos-development-newsletter.html)*
