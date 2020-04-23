@@ -12,3 +12,5 @@ To be honest, it really should be "Tairos 32: Finally making a blog" because I h
 If you would like to stay informed about the development of Tairos, follow this blog series! An mailing list is in the works (if it is not on the site already), so you will be able to subscribe to get emailed whenever a new article is released.
 
 Thank you for considering following my journey!
+
+Next Post: [Tairos 2: Introducing Print and Play!](/tairos/2020/04/21/introducing-print-and-play.html)
