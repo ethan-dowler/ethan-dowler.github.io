@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tairos 2: Introducing Print and Play!"
+title:  "Introducing Print and Play!"
 date:   2020-04-22
 categories: tairos
 ---
@@ -11,8 +11,4 @@ Here are the downloads:
 - [Rules](/downloads/Tairos_Rules.pdf)
 - [Cards](/downloads/Tairos_Cards.pdf)
 
-Previous Post: [Tairos 1: Humble Beginnings](/tairos/2020/04/18/humble-beginnings.html)
-
-Next Post: TBD
-
-*Psst... Are you interested in keeping up with the development process for Tairos? If yes, please consider subscribing to the [Tairos Development Newsletter ->](/tairos/2020/04/22/subscribe-to-tairos-development-newsletter.html)*
+*Are you interested in keeping up with the development process for Tairos? If so, please consider subscribing to the [Tairos Development Newsletter](/tairos/2020/04/22/subscribe-to-tairos-development-newsletter.html)*
