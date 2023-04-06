@@ -16,6 +16,8 @@ github_username:  ethan-dowler
 
 # Build settings
 theme: minima
+exclude:
+  - archives
 plugins:
   - jekyll-feed
 
