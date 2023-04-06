@@ -1,8 +1,12 @@
 # tairos
 
-Marketing site for my card game, Tairos.
+Personal blogging site.
 
 Built using [Jekyll](https://jekyllrb.com/)!
+
+## Current Project
+
+[Break of Dawne Book](https://docs.google.com/document/d/1aQb_IRfUHM912UKopEIN4FoECOQJvxR-r40hROchDdw)
 
 ## Development
 
