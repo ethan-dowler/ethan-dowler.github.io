@@ -15,11 +15,19 @@ url: "https://ethan-dowler.github.io"
 github_username:  ethan-dowler
 
 # Build settings
-theme: minima
 exclude:
   - archives
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+
 plugins:
   - jekyll-feed
+
+theme: minima
+minima:
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.
