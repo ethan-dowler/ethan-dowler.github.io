@@ -14,11 +14,7 @@ The working title is _**Break of Dawne**_ (yes, that's with an "e"!).
 
 ## The Premise
 
-Joye Dawne, along with her sisters, Sorrowe and Hope, suffer from an ancestral curse. Their family thrived on the Bellwind Plains until their parents mysteriously disappeared after a terrible storm.
-
-Now, a primitive, brutish tribe has invaded the Dawne sisters' homeland and is making life difficult.
-
-The three sisters each try to find meaning and purpose in this new, upside-down wold in different ways.
+Joye Dawne, along with her sisters, Sorrowe and Hope, suffer from an ancestral curse, passed down through their father, that gives them curled horns, pointed tails, and gray skin. That never mattered to them until their parents mysteriously disappeared in a terrible storm. If that wasn't enough, a primitive tribe of brutes recently invaded their homeland and started making life difficult. The three sisters search for meaning and purpose, each in their own way.
 
 ## Goals
 
@@ -27,6 +23,7 @@ I want to write a story that:
 - entertains high fantasy yet feels very human
 - juxtaposes the consequences of sin with the peace of forgiveness
 - evokes emotion and feeling
+- makes you want to change for the better
 
 ---
 
