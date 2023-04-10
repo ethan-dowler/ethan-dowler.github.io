@@ -27,10 +27,8 @@ I want to write a story that:
 
 ---
 
-## Follow the Adventure!
+<br />
 
 Next Post in this series: [Break of Dawne: The Characters](/2023/04/06/break-of-dawne-the-characters.html)
 
-_If you'd like to follow along as I uncover the journey of the Dawne sisters, sign up for my newsletter!_
-
-_Newsletter Signup Widget TBD_
+{% include email_signup.html %}
