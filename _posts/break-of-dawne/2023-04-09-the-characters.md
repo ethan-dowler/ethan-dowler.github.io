@@ -1,4 +1,12 @@
+---
+layout: post
+title: 'Break of Dawne: The Characters'
+date: 2023-04-09 08:00 +0000
+permalink: /break-of-dawne/characters
+---
+
 ## The Dawne Sisters
+
 ### Joye (19)
 
 As the first-born child, Joye takes it upon herself to look after her sisters. She enjoys order and logic, which she puts to practice in her study of magic. As a fledgling wizard, Joye uses her growing magical powers to protect and provide for her family. Joye always finds the silver lining. She won't let a few tragedies keep her down. She can't afford to. Her sisters need her to be a strong leader.
@@ -25,6 +33,8 @@ Dorgu strong, but Dorgu not too smart. Dorgu serve clan. Clan is family. Clan is
 
 <br />
 
-Previous Post in this series: [Break of Dawne: Book Announcement](/2023/04/05/break-of-dawne-book-announcement.html)
+Previous Post in this series: [Break of Dawne: Book Announcement](/break-of-dawne/book-announcement)
+
+Next Post in this series: [Break of Dawne: Excerpt #1](/break-of-dawne/excerpts/one)
 
 {% include email_signup.html %}

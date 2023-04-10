@@ -1,3 +1,10 @@
+---
+layout: post
+title: 'Break of Dawne: Book Announcement'
+date: 2023-04-02 08:00 +0000
+permalink: /break-of-dawne/book-announcement
+---
+
 ## I'm Writing a Book!
 
 Hello friends. This is not the first crazy, creative idea I've had, but it's the latest (as of this writing).
@@ -29,6 +36,6 @@ I want to write a story that:
 
 <br />
 
-Next Post in this series: [Break of Dawne: The Characters](/2023/04/06/break-of-dawne-the-characters.html)
+Next Post in this series: [Break of Dawne: The Characters](/break-of-dawne/characters)
 
 {% include email_signup.html %}
