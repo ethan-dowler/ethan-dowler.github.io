@@ -21,7 +21,7 @@ The working title is _**Break of Dawne**_ (yes, that's with an "e"!).
 
 ## The Premise
 
-Joye Dawne, along with her sisters, Sorrowe and Hope, suffer from an ancestral curse, passed down through their father, that gives them curled horns, pointed tails, and gray skin. That never mattered to them until their parents mysteriously disappeared in a terrible storm. If that wasn't enough, a primitive tribe of brutes recently invaded their homeland and started making life difficult. The three sisters search for meaning and purpose, each in their own way.
+Joye Dawne, along with her sisters, Sorrowe and Hope, suffer from an ancestral curse, passed down through their father, that gives them curled horns, pointed tails, and gray skin. That never mattered to them because they're family was united and thriving — until their parents mysteriously disappeared in a terrible storm. If that wasn't enough, a primitive tribe of brutes invaded their homeland and started making life difficult. The three sisters search for meaning and purpose in their new reality, each in their own way.
 
 ## Goals
 
