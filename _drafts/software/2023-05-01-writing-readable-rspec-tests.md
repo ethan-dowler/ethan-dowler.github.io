@@ -11,29 +11,23 @@ This article uses the Gilded Rose Kata in Ruby. [Source Code](https://github.com
 
 ## Tests as Documentation
 
-Using the `--format documentation` option, we can see our test cases as full sentences.
+Using the `--format documentation` and `--color` option, we can see our test cases as full sentences. Adding the `--color` option (or `--colour` if that's your thing) makes the output really pop!
 
 ```bash
-bundle exec rspec --format documentation
+bundle exec rspec --format documentation --color
 ```
 
-```
-GildedRose
-  #update_quality
-    when given a generic item
-      reduces the sell_in by 1
-      reduces the quality by 1
-      when the item is conjured
-        reduces the quality by 2 (FAILED - 1)
-```
+[INSERT PICTURE OF RSPEC DOCUMENTATION OUTPUT]
 
-Or better yet, create a `.rspec` file in your repo that makes this the default! I like to add the `--color` option as well for added clarity in my terminal (or `--colour` if that's your thing).
+Or better yet, create a `.rspec` file in your repo that makes these options the default.
 
 ```bash
 # .rspec
 --format documentation
 --color
 ```
+
+Now, when you run `bundle exec rspec`, you'll get the documenation format and color automatically!
 
 ## Hey, That's Out of Context!
 
