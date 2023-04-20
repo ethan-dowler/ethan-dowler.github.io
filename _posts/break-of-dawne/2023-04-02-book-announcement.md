@@ -36,6 +36,6 @@ I want to write a story that:
 
 <br />
 
-Next Post in this series: [Break of Dawne: The Characters](/break-of-dawne/characters)
+Next post in this series: [Break of Dawne: The Characters](/break-of-dawne/characters)
 
 {% include email_signup.html %}
