@@ -17,8 +17,6 @@ Using the `--format documentation` and `--color` option, we can see our test cas
 bundle exec rspec --format documentation --color
 ```
 
-[INSERT PICTURE OF RSPEC DOCUMENTATION OUTPUT]
-
 Or better yet, create a `.rspec` file in your repo that makes these options the default.
 
 ```bash
@@ -35,9 +33,7 @@ Everyone loves a good soundbite. They can be funny, informative, or rage-inducin
 
 We can't just test _what_ our code does, we need to know _when_ it does it. Said another way, we need to know **in what circumstance does this code behave this way**.
 
-## Enter `context`
-
-This helpful RSpec method allows us to give the reader of the code a detailed explanation of the context surrounding this test. Look at the `it` blocks in Figure A:
+You may have seen tests like this:
 
 **Figure A**
 
@@ -55,9 +51,10 @@ describe Sun do
 end
 ```
 
-What?! A sun is both visible and _not_ visible? This makes no sense! See the full test in Figure B.
+What?! A sun is both visible and _not_ visible? This makes no sense! Let's take a closer look:
 
-Figure B
+**Figure B**
+
 ```ruby
 describe Sun do
   describe "#visible?" do
@@ -78,9 +75,13 @@ end
 
 Ok, _now_ it's clear that the key difference here is _when_ the sun is visible. We didn't know that until we looked at the test code. We don't want to have to look through the inner workings of our tests to know what we're testing.
 
-Let's write the same tests using a little `context`. See Figure B:
+## Enter Context
 
-**Figure B**
+This helpful RSpec method allows us to give the reader of the code a detailed explanation of the context surrounding the test.
+
+Let's write the same tests using `context` to define the circumstances of the test:
+
+**Figure C**
 
 ```ruby
 describe Sun do
@@ -106,13 +107,11 @@ Take this quote from a **Sciencing** article titled [_Why Should You Only Test f
 
 > Testing only one variable at a time lets you analyze the results of your experiment to see how much a single change affected the result. If you're testing two variables at a time, you won't be able to tell which variable was responsible for the result.
 
-## Enter `let`
+## Enter Let
 
-We can define any change-able variables we need using `let`. If a nested context redefines a `let`, then RSpec is smart enough to use the nested `let`. In this way, we can redifine our variables, so we know exactly what is changing between contexts.
+We can define any change-able variables we need using `let`. If a nested context redefines a `let`, then RSpec is smart enough to use the nested `let`. In this way, we can redifine our variables, so we know exactly what is changing between contexts:
 
-See Figure C:
-
-**Figure C**
+**Figure D**
 
 ```ruby
 describe Sun do
@@ -171,9 +170,9 @@ Similarly, `described_class` is automatically assumed to be the class given in t
 subject(:sun) { described_class.new(time_of_day:) }
 ```
 
-See Figure D for the full test file:
+The full test file:
 
-**Figure D**
+**Figure E**
 
 ```ruby
 describe Sun do
