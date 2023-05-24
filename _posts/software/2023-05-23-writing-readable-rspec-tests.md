@@ -145,9 +145,9 @@ As a bonus, when we run the test using `rspec --format documentation`, we get a 
 Sun
   #visible?
     when the time of day is 12pm
-      it is visible
+      returns true
     when the time of day is 12am
-      it is not visible
+      returns false
 ```
 
 Add the `--color` option for more pizazz.
