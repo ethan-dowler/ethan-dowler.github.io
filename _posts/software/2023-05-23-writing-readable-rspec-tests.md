@@ -103,7 +103,7 @@ end
 
 That's better, but we can still make some improvements. Just looking at the names of the contexts, we don't know how much is different between the two tests. What makes the time 12pm? Is that the only thing that's different?
 
-Take this quote from a **Sciencing** article titled [_Why Should You Only Test for One Variable at a Time in an Experiment?_](https://sciencing.com/should-only-test-one-variable-time-experiment-11414533.html):
+Take this quote from a **Sciencing.com** article titled [_Why Should You Only Test for One Variable at a Time in an Experiment?_](https://sciencing.com/should-only-test-one-variable-time-experiment-11414533.html):
 
 > Testing only one variable at a time lets you analyze the results of your experiment to see how much a single change affected the result. If you're testing two variables at a time, you won't be able to tell which variable was responsible for the result.
 
