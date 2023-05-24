@@ -40,11 +40,11 @@ You may have seen tests like this:
 ```ruby
 describe Sun do
   describe "#visible?" do
-    it "is visible" do
+    it "returns true" do
       # test code
     end
 
-    it "is not visible" do
+    it "returns false" do
       # test code
     end
   end
@@ -58,13 +58,13 @@ What?! A sun is both visible and _not_ visible? This makes no sense! Let's take 
 ```ruby
 describe Sun do
   describe "#visible?" do
-    it "is visible" do
+    it "returns true" do
       sun = Sun.new(time_of_day: "12pm")
 
       expect(sun.visible?).to be(true)
     end
 
-    it "is not visible" do
+    it "returns false" do
       sun = Sun.new(time_of_day: "12am")
 
       expect(sun.visible?).to be(false)
@@ -87,13 +87,13 @@ Let's write the same tests using `context` to define the circumstances of the te
 describe Sun do
   describe "#visible?" do
     context "when the time of day is 12pm" do
-      it "is visible" do
+      it "returns true" do
         # test code
       end
     end
 
     context "when the time of day is 12am" do
-      it "is not visible" do
+      it "returns false" do
         # test code
       end
     end
@@ -121,7 +121,7 @@ describe Sun do
     context "when the time of day is 12pm" do
       let(:time_of_day) { "12pm" }
 
-      it "is visible" do
+      it "returns true" do
         expect(sun.visible?).to be(true)
       end
     end
@@ -129,7 +129,7 @@ describe Sun do
     context "when the time of day is 12am" do
       let(:time_of_day) { "12am" }
 
-      it "is not visible" do
+      it "returns false" do
         expect(sun.visible?).to be(false)
       end
     end
@@ -182,7 +182,7 @@ describe Sun do
     context "when the time of day is 12pm" do
       let(:time_of_day) { "12pm" }
 
-      it "is visible" do
+      it "returns true" do
         expect(sun.visible?).to be(true)
       end
     end
@@ -190,7 +190,7 @@ describe Sun do
     context "when the time of day is 12am" do
       let(:time_of_day) { "12am" }
 
-      it "is not visible" do
+      it "returns false" do
         expect(sun.visible?).to be(false)
       end
     end
