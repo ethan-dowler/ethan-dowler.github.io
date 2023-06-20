@@ -51,7 +51,7 @@ describe Sun do
 end
 ```
 
-What?! A sun is both visible and _not_ visible? This makes no sense! Let's take a closer look:
+What?! The sun is both visible and _not_ visible? This makes no sense! Let's take a closer look:
 
 **Figure B**
 
@@ -197,6 +197,91 @@ describe Sun do
   end
 end
 ```
+
+## Taking It Further
+
+### One Caveat
+
+It's important to note that this `Sun` class is only concerned with the visbility of the sun to a viewer _on Earth_. If we need to know the visibility of the sun on Mars, we may want to make separate `EarthSun` and `MarsSun` classes to encapsulate the logic for each planet.
+
+### A New Requirement
+
+But even our Earth-centric logic might expand. What if we need to distinguish between different parts of Earth? In Alaska, depending on the season, the sun might be visible all day or not visible at all during the day.
+
+We can add new contexts for Alaska in summer and winter. This greatly increases the number of tests in our test suite, but notice how each context only changes one variable, and the individual tests all look the same. The only thing that's changing are the inputs. 
+
+**Figure F**
+
+```ruby
+describe Sun do
+  subject(:sun) { described_class.new(time_of_day:, position:, season:) }
+
+  describe "#visible?" do
+    context "when in Kansas" do
+      let(:position) { Position.new(lat: 39.626945, long: -97.644008) }
+
+      context "when the season is summer" do
+        let(:season) { :summer }
+
+        # PREVIOUS TEST CODE
+      end
+
+      context "when the season is winter" do
+        let(:season) { :winter }
+
+        # NOTE: the tests for winter can be the same as the tests for
+        # summer since the logic for seasons is the same in the mainland
+      end
+    end
+
+    context "when in Alaska" do
+      let(:position) { Position.new(lat: 66.160507, long: -153.369141) }
+
+      context "when the season is summer" do
+        let(:season) { :summer }
+
+        context "when the time of day is 12pm" do
+          let(:time_of_day) { "12pm" }
+
+          it "returns true" do
+            expect(sun.visible?).to be(true)
+          end
+        end
+
+        context "when the time of day is 12am" do
+          let(:time_of_day) { "12am" }
+
+          it "returns true" do
+            expect(sun.visible?).to be(true)
+          end
+        end
+      end
+
+      context "when the season is winter" do
+        let(:season) { :winter }
+
+        context "when the time of day is 12pm" do
+          let(:time_of_day) { "12pm" }
+
+          it "returns false" do
+            expect(sun.visible?).to be(false)
+          end
+        end
+
+        context "when the time of day is 12am" do
+          let(:time_of_day) { "12am" }
+
+          it "returns false" do
+            expect(sun.visible?).to be(false)
+          end
+        end
+      end
+    end
+  end
+end
+```
+
+
 
 ## Practice on Your Own
 
