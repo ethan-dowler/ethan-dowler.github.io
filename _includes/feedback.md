@@ -1,3 +1,3 @@
 ### Send Me Your Thoughts!
 
-I'd love to hear from you. Send your thoughts, questions, and ideas (good, bad, or indifferent) to **tedowler@gmail.com**
+I'd love to hear from you. You can start a conversation with me at **ethan@faithdragon.com**
