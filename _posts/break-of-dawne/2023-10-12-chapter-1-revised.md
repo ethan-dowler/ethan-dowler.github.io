@@ -5,7 +5,7 @@ date: 2023-10-12 08:00 +0000
 permalink: /break-of-dawne/chapters/1/revised
 ---
 
-## Chatper 1 (Revised) — Joye
+## Joye
 
 
 Magic flows through my veins as I produce bolts of fire from my fingertips, hitting makeshift targets around the cellar. I extend my hand with the gestures illustrated in my kata scrolls, moving my arms in the patterns described in the text. Crude sketches teach the required position for each finger. Each kata comes with instructions for when and how to use it.
