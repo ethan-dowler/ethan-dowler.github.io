@@ -1,12 +1,18 @@
-# tairos
+# Faith Dragon
 
-Personal blogging site.
+The personal site of Ethan Dowler
 
 Built using [Jekyll](https://jekyllrb.com/)!
 
-## Current Project
+## Active Projects
 
-[Break of Dawne Book](https://docs.google.com/document/d/1aQb_IRfUHM912UKopEIN4FoECOQJvxR-r40hROchDdw)
+- _Break of Dawne_ (book)
+- Dungeons of Tairos (text-based browser RPG)
+
+## Past Projects
+
+- Defenders of Tairos (cooperative card game)
+- Faith Dragon Podcast (about life as a Christian)
 
 ## Development
 
