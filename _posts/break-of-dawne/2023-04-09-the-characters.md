@@ -31,10 +31,14 @@ Dorgu strong, but Dorgu not too smart. Dorgu serve clan. Clan is family. Clan is
 
 ---
 
+UPDATE: You can start reading the book [here](/break-of-dawne/chapters/1/revised)!
+
+---
+
 <br />
 
 Previous post in this series: [Break of Dawne: Book Announcement](/break-of-dawne/book-announcement)
 
-Next post in this series: [Break of Dawne: Excerpt #1](/break-of-dawne/excerpts/one)
+Next post in this series: [Break of Dawne: Excerpt #1](/break-of-dawne/excerpts/1)
 
 {% include email_signup.html %}

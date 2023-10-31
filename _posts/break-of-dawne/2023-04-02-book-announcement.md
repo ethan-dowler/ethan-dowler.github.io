@@ -5,6 +5,10 @@ date: 2023-04-02 08:00 +0000
 permalink: /break-of-dawne/book-announcement
 ---
 
+UPDATE: You can start reading the book [here](/break-of-dawne/chapters/1/revised)!
+
+---
+
 ## I'm Writing a Book!
 
 Hello friends. This is not the first crazy, creative idea I've had, but it's the latest (as of this writing).
