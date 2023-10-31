@@ -5,9 +5,6 @@ date: 2023-10-12 08:00 +0000
 permalink: /break-of-dawne/chapters/1/revised
 ---
 
-## Joye
-
-
 Magic flows through my veins as I produce bolts of fire from my fingertips, hitting makeshift targets around the cellar. I extend my hand with the gestures illustrated in my kata scrolls, moving my arms in the patterns described in the text. Crude sketches teach the required position for each finger. Each kata comes with instructions for when and how to use it.
 
 As I practice the fire-form katas, the magic has an effect on my body. Lines of soft red light form arcane runes on my arms and hands, illuminating my dark gray skin. My long, curly, black hair recoils from the force produced by the fire bolts. My eyes and horns shed a bright red light that swells and dims with each bolt.
