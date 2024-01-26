@@ -232,7 +232,9 @@ I join Sorrowe who's already setting up a makeshift shelter for the three of us 
 
 ----
 
-[Original Chapter 1](/break-of-dawne/chapters/1/revised) (Revised)
+Compare this with the [previous version of Chapter 1](/break-of-dawne/chapters/1/revised)
+
+Continue the story with [Chapter 4](/break-of-dawne/chapters/4) (this passage was previously split into three chapters)
 
 ---
 
